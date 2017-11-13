@@ -1,0 +1,271 @@
+
+/*fixed navbar*/
+.affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+/*content*/
+  .affix + container-fluid {
+      padding-top: 70px;
+  }
+
+  a,p, span{
+    padding: 0; margin:0;
+  }
+  h1{
+    margin: 0;padding: 0;
+    font-family: sans-serif;
+    font-size: 75px;
+  }
+  a:hover{
+    text-decoration: none;
+  }
+  .icon-bar{
+    background-color:white;
+  }
+/*#top-header span, #top-header a{
+  color: white;
+  font-size: 15px;
+}*/
+a{
+  color: black;text-decoration: none;
+}
+hr{
+  border-color: #D9D9D9;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+    background-color: #F72210;
+}
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+    background-color: #F72210;
+    border-color: #337ab7;
+}
+#top-header .bottom, #top-header .top{
+  position: absolute;bottom: 10%;
+}
+#top-header .bottom{
+  right: 0;
+}
+#top-header{
+  background-color:#F72210;color:#fff;position: relative;
+}
+nav a{
+  font-size: 15px;
+  border-right: 1px solid #D9D9D9;
+
+}
+nav #last{
+  border-right: 0px;
+}
+.navbar{
+  border-bottom: 1px solid #F4F5F6;
+  background-color: white;
+}
+.first{
+  float: left;
+}
+.navbar.fixed a{
+  color: black;
+  font-weight: bold;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+    background-color: white;
+    color:#F72210;
+}
+.top > .nav > li > a:focus, .top >.nav > li > a:hover {
+    background-color: #F72210;
+}
+.top-content .col-md-8 h3{
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.5em;
+}
+.top-content .col-md-8 a{
+  color: black;
+}
+.top-content .col-md-8 a:hover{
+  border-bottom:2px solid red;
+}
+.col-md-4 ul {
+  list-style: none;
+}
+.col-md-4 ul > li{
+  margin-bottom: 1em;
+}
+.col-md-4 ul > li >a{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+.col-md-4 ul > li > a:hover{
+  color: #F72210;
+}
+.topics img{
+  padding-top: 10px;padding-bottom: 10px;width: 100%;
+}
+/*logo carousel*/
+.logo{
+  width: 2em;
+  height:2em;
+  vertical-align: center;
+  background-color: #F72210;
+  color: white;
+  text-align: center;
+}
+.logo h3{
+  padding-top:1.5px;margin: 0;
+  font-weight: bold;
+}
+#carousel-header{
+  padding-left: 40%;
+}
+#carousel-header:after{
+  content:"";
+  display: table;
+  clear:both;
+}
+#carousel-header h4{
+  padding:5px 0 0 10px; margin:0; font-weight: bold;
+}
+/*this week*/
+#this-week hr{
+  margin-top:1em;margin-bottom: 1em;
+}
+#this-week .btn{
+  background-color: #1fb8fc;
+  border-radius: 0px;
+  color: white;
+  font-weight: bold;
+  margin-top: 1em;
+}
+.headlines hr{
+  margin-bottom: 0.5em;margin-top: 0.5em;
+}
+
+#this-week .btn:hover{
+  background-color: #1CA5E2;
+}
+.this-week hr{
+  margin-top:1em;margin-bottom: 1em;
+}
+
+.membership div img{
+  width: 45%;
+  padding-top: 2em;
+}
+.membership h3{
+  font-weight: bold;
+  color: black;
+}
+.membership button{
+  color: white;
+  background-color: #F72210;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 0;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+.membership{
+  margin-top: 1.5em;
+}
+.membership span{
+  color: #96969B;
+  padding-right: 0.5em;
+}
+.membership button span{
+  color: white;
+}
+.membership button:hover{
+  background-color: #D91E0D;
+  color: white;
+}
+.move{
+  margin-left: 1em;
+}
+.content{
+  border:1px solid #D9D9D9;
+}
+
+.center{
+  text-align: center;
+}
+footer img{
+  height: 24px;
+}
+.menu{
+  list-style: none;
+}
+.menu li{
+  float: left;
+  border-right:1px solid #D9D9D9;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-bottom: 3em;
+}
+.menu a{
+  color: #666;
+}
+.menu a:hover{
+  color: black;
+}
+/*general classes*/
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.clear{
+  clear:both;
+}
+.red-underline,.red-hover{
+  font-weight: bold;
+}
+.red-underline{
+  font-size: 20px;
+}
+.red-underline:hover{
+  border-bottom: 1px solid #F72210;
+  color: black;
+}
+.red-hover:hover{
+  color: #F72210;
+}
+.red{
+  font-size: 18px;font-weight: bold;color:#F72210;
+}
+.red:hover{
+  color: #F72210;
+}
+.no-padding{
+  padding-right:0;
+  padding-left: 0;
+}
+.icon-bar{
+  background-color:white;
+}
+.navbar-brand{
+  position: absolute;
+  visibility: hidden;
+}
+.col-md-4{
+  padding-top: 25px;
+}
+@media screen and (max-width: 767px){
+  .navbar-brand{
+    position: initial;
+    visibility: visible;
+  }
+}
+@media screen and (max-width: 980px){
+  #top-header{
+    visibility: hidden;
+    position: absolute;
+  }
+
+}
